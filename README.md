@@ -67,15 +67,35 @@ variance-gpt/
 
 🚀 How to Run
 
-python variance_generator.py
+📺 Option 1: Run the Streamlit Web App (Recommended)
+To launch the web interface:
 
-You'll see:
+streamlit run stream.py
 
-Variance calculated
+Note: Running with python stream.py won't work — use the streamlit run command to launch the app properly.
 
-GPT-generated commentary
+Once running, you can upload your Excel file directly in the browser and download a final version with GPT-generated commentary.
 
-Output saved in outputs/commentary_output.xlsx
+⚙️ Option 2: Run as a Script
+You can also run the generator manually:
+
+1. Place your Excel file in the data/ folder.
+
+2. Run: python variance_generator.py
+
+3. Your processed file will be saved to the outputs/ folder.
+
+📂 File Structure
+variance-gpt/
+├── data/
+│   └── financials.xlsx         # Input file
+├── outputs/
+│   └── commentary_output.xlsx  # Output with GPT commentary
+├── stream.py                   # Streamlit web app
+├── variance_generator.py       # Script version
+├── requirements.txt
+└── .env                        # (optional) API key
+
 
 
 🧠 Sample Output
