@@ -108,8 +108,3 @@ variance-gpt/
 
 🙌 Credits
 Built by Myles Williams, a finance professional turned automation builder.
-
-🧠 Future Plans
-- Streamlit web app version
-- Slack/email auto-report delivery
-- CSV upload & GPT agent integration
